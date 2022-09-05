@@ -100,7 +100,7 @@ export default function ButtonAppBar() {
               ))}
             </Menu>
           </Box>
-          <Link component={Home} props={{ message: "Home page" }}>
+          <Link component={Home} >
             <Typography className="main-title" variant="h6" component="div" sx={{ flexGrow: 1 }}>
               Columbus helper
             </Typography>

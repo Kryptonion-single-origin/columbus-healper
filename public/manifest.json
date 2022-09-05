@@ -1,23 +1,23 @@
 {
-  "name": "Crypto helper",
-  "short_name": "Crypto helper",
-  "description": "Crypto tool helper",
+  "name": "Columbus helper",
+  "short_name": "Columbus helper",
+  "description": "Crypto tool helper ( power by single origin )",
   "version": "0.0.1",
   "manifest_version": 3,
   "action": {
     "default_popup": "index.html",
     "default_icon": {
-        "16": "Columbus-logos.jpeg",
-        "32": "Columbus-logos.jpeg",
-        "48": "Columbus-logos.jpeg",
-        "128": "Columbus-logos.jpeg"
+        "16": "Columbus-logos.png",
+        "32": "Columbus-logos.png",
+        "48": "Columbus-logos.png",
+        "128": "Columbus-logos.png"
     }
 },
 "icons": {
-  "16": "Columbus-logos.jpeg",
-  "32": "Columbus-logos.jpeg",
-  "48": "Columbus-logos.jpeg",
-  "128": "Columbus-logos.jpeg"
+  "16": "Columbus-logos.png",
+  "32": "Columbus-logos.png",
+  "48": "Columbus-logos.png",
+  "128": "Columbus-logos.png"
 },
   "start_url": ".",
   "display": "standalone",

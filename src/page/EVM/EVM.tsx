@@ -48,7 +48,11 @@ function createData(
 }
 
 const rows = [
-  createData('Hash search', "it use for search hash (block account ,etc..)",HashSearch),
+  createData('Hash search', "it is multichain hash search (block account ,etc..) .",HashSearch),
+  createData('Decode Tx', "Use for decode Tx hex by function signature .",HashSearch),
+  createData('Event watch', "it is Event log watch start block until end .",HashSearch),
+  createData('Bordcast row tx', "Send row tx .",HashSearch),
+  createData('NFT Select mint', "It tricker nft id for mint .",HashSearch),
 ];
 
 export default function EVM() {

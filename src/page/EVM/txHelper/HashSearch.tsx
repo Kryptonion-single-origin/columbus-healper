@@ -115,6 +115,7 @@ export default function HashSearch() {
   };
   const search = () => {
     let urlCaller = url
+
     if (hash.length == 42) {
       urlCaller += "address/" + hash
     } else if(hash.startsWith('0x')) {
@@ -122,6 +123,7 @@ export default function HashSearch() {
     } else {
       urlCaller += "block/" + hash
     }
+
   chrome.tabs.create({ url: urlCaller });
   }
   return (
@@ -159,6 +161,7 @@ export default function HashSearch() {
           onChange={handleUrlChange}
           input={<BootstrapInput />}
         >
+          <option value="">-- select --</option>
           {CHAIN_CONFIGS.map((chain) => (
             <option value={chain.url}>{chain.name}</option>
           ))}
